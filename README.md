@@ -3,15 +3,20 @@ We are going to make all post of any post-type as a category of page in Wordpres
 
 Hi, This is Anmol Singh.
 
-Today I am going to Make all the posts of a specific post_type as a category of Page in WordPress Back-End and Show you how to Call it in the Front-End.
+Today I am going to make all the posts of a specific post_type as a category of Page in WordPress Back-End and Show you how to Call it in the Front-End.
 
-So, Let us Assume that we have a post_type in WordPress name "doctor" and we want to Create page with Some Doctor that we can manipulate from Back-End.
+So, Let us Assume that we have a post_type in WordPress name "doctor" and we want to create a page with Some Doctors that we can manipulate from Back-End.
 
-Now, Let's Dive in logic:-
+
+
+Now, Let's Dive into logic:-
 
 1. We need a meta field with all the Doctor's post ID.
+
 2. We need to select it with checkBox.
-3. Now, We need to save our Selection in Data-base.
+
+3. Now, We need to save our Selection in the database.
+
 4. And, Lastly we need to call it on the page and make it Mark whenever Back-end Opens, So we know which are selected before.
 
 Now, Let's Jump to Code:-
